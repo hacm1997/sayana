@@ -1,9 +1,9 @@
-import { Product } from "../types/product";
+import { Product } from "@/app/types/product";
 
 export const products: Product[] = [
   {
     id: "1",
-    name: "Blusa",
+    name: "Blusa Rosa",
     price: 10000,
     sizes: ["M"],
     category: "blusas",
@@ -11,7 +11,7 @@ export const products: Product[] = [
   },
   {
     id: "2",
-    name: "Blusa",
+    name: "Blusa Mangas Largas",
     price: 10000,
     sizes: ["S"],
     category: "blusas",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   },
   {
     id: "3",
-    name: "Blusa",
+    name: "Blusa Review",
     price: 15000,
     sizes: ["M"],
     category: "blusas",
@@ -27,7 +27,7 @@ export const products: Product[] = [
   },
   {
     id: "4",
-    name: "Blusa",
+    name: "Blusa Fuscia",
     price: 10000,
     sizes: ["S"],
     category: "blusas",
@@ -35,7 +35,7 @@ export const products: Product[] = [
   },
   {
     id: "5",
-    name: "Blusa",
+    name: "Blusa Ela",
     price: 15000,
     sizes: ["S"],
     category: "blusas",
@@ -43,7 +43,7 @@ export const products: Product[] = [
   },
   {
     id: "6",
-    name: "Blusa",
+    name: "Blusa Blanca Tipo 1",
     price: 10000,
     sizes: ["M"],
     category: "blusas",
@@ -51,7 +51,7 @@ export const products: Product[] = [
   },
   {
     id: "7",
-    name: "Blusa",
+    name: "Blusa Blanca Tipo 2",
     price: 15000,
     sizes: ["M"],
     category: "blusas",
@@ -59,7 +59,7 @@ export const products: Product[] = [
   },
   {
     id: "8",
-    name: "Blusa",
+    name: "Blusa Ela Amarilla",
     price: 15000,
     sizes: ["M"],
     category: "blusas",
@@ -67,7 +67,7 @@ export const products: Product[] = [
   },
   {
     id: "9",
-    name: "Blusa",
+    name: "Blusa Ela Colores",
     price: 10000,
     sizes: ["M"],
     category: "blusas",
@@ -78,12 +78,12 @@ export const products: Product[] = [
     name: "Blusa niña",
     price: 10000,
     sizes: ["10"],
-    category: "blusa",
+    category: "blusas",
     image: "/images/blusas/blusa-kid-talla-10.jpeg",
   },
   {
     id: "11",
-    name: "Blusa",
+    name: "Blusa Naranja",
     price: 10000,
     sizes: ["M"],
     category: "blusas",
@@ -91,7 +91,7 @@ export const products: Product[] = [
   },
   {
     id: "12",
-    name: "Blusa",
+    name: "Blusa Corta",
     price: 10000,
     sizes: ["S"],
     category: "blusas",
@@ -99,7 +99,7 @@ export const products: Product[] = [
   },
   {
     id: "13",
-    name: "Blusa",
+    name: "Blusa Blanca S/M",
     price: 15000,
     sizes: ["S", "M"],
     category: "blusas",
@@ -107,7 +107,7 @@ export const products: Product[] = [
   },
   {
     id: "14",
-    name: "Enterizo",
+    name: "Enterizo Flores",
     price: 20000,
     sizes: ["L"],
     category: "enterizos",
@@ -115,7 +115,7 @@ export const products: Product[] = [
   },
   {
     id: "15",
-    name: "Enterizo",
+    name: "Enterizo Rosa",
     price: 20000,
     sizes: ["M"],
     category: "enterizos",
@@ -147,7 +147,7 @@ export const products: Product[] = [
   },
   {
     id: "19",
-    name: "Pantalon",
+    name: "Pantalon Jean",
     price: 15000,
     sizes: ["12"],
     category: "pantalones",
@@ -155,7 +155,7 @@ export const products: Product[] = [
   },
   {
     id: "20",
-    name: "Pantalon",
+    name: "Pantalon Estradivarius",
     price: 20000,
     sizes: ["6"],
     category: "pantalones",
@@ -163,7 +163,7 @@ export const products: Product[] = [
   },
   {
     id: "21",
-    name: "Pantalon",
+    name: "Pantalon ELV",
     price: 15000,
     sizes: ["12"],
     category: "pantalones",

@@ -1,6 +1,6 @@
 // hooks/useShop.ts
-import { products } from "@/app/const/list-products";
 import { CartItem, Product } from "@/app/types/product";
+import { products } from "@/const/list-products";
 import { useState } from "react";
 
 const useShop = () => {

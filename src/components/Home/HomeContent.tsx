@@ -1,10 +1,10 @@
-import { categories } from "@/app/const/categories";
 import useShop from "@/hooks/useShop";
 import React from "react";
 import CategoryFilter from "../Categories/CategoryFilter";
 import ProductList from "../Products/ProductList";
 import Cart from "../Cart/Cart";
 import Image from "next/image";
+import { categories } from "@/const/categories";
 
 export const HomeContent = () => {
     const {
